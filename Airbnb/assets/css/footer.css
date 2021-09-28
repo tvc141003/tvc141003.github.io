@@ -1,0 +1,150 @@
+.footer {
+    background-color: #f7f7f7;
+    border-top: 2px solid #ebebeb;
+}
+
+.footer-container {
+    padding: 48px 0;
+}
+
+.footer-heading {
+    margin: 0;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-item {
+    margin-top: 16px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #2e2e2e;
+    font-weight: 400;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #222222;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #484848;
+}
+
+.footer-bottom {
+    position: relative;
+}
+
+.footer-bottom::before {
+    content: "";
+    border-top: 2px solid #ebebeb;
+    position: absolute;
+    top: 0;
+    left: 12px;
+    right: 12px;
+}
+
+.footer-copyright__list {
+    margin: 0;
+    padding: 24px 0;
+    list-style: none;
+    display: flex;
+}
+
+.footer-copyright__item {
+    display: flex;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.footer-copyright__dot {
+    display: inline-block;
+    text-align: center;
+    width: 19px;
+    padding-top: 1px;
+}
+
+.footer-copyright__link {
+    display: block;
+    text-decoration: none;
+    color: #484848;
+    position: relative;
+}
+
+.footer-copyright__link:hover {
+    text-decoration: underline;
+    color: #484848;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #222222;
+}
+
+.footer-contact__setting {
+    display: flex;
+    margin-right: 24px;
+}
+
+.footer-contact__language {
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact__language:hover {
+    cursor: pointer;
+}
+
+.footer-contact__language-name {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    margin-left: 8px;
+    text-decoration: underline;
+}
+
+.footer-contact__money {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.footer-contact__money:hover {
+    cursor: pointer;
+}
+
+.footer-contact__money-name {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    margin-left: 8px;
+    text-decoration: underline;
+}
+
+.footer-contact__social {
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-contact__social-link {
+    font-size: 2rem;
+    color: #222222;
+    text-decoration: none;
+    margin-left: 24px;
+}
+
+.footer-contact__social-icon {
+    font-size: 1.8rem;
+}

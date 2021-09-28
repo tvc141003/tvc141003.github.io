@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/appContainer.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <div class="grid">
+            <div class="client-warning">
+                <a href="/" class="client-warning-link">
+                    <span class="client-warning-text">Nhận thông tin mới nhất về biện pháp ứng phó COVID-19 của chúng tôi</span>
+                </a>
+            </div>
+        </div>
+        <div class="header">
+            <img src="./assets/img/slider.jpg" alt="" class="slider">
+            <img src="./assets/img/slider_tablet.jpg" alt="" class="slider_tablet">
+            <img src="./assets/img/slider_mobile.jpg" alt="" class="slider_mobile">
+
+            <div class="grid wide">
+                <div class="header-navbar">
+                    <div class="header-logo">
+                        <a href="/" class="header-logo__link">
+                            <svg width="102" height="32" fill="#fff" style="display: block;" class="hide-on-mobile-tablet">
+                                <path d="M29.24 22.68c-.16-.39-.31-.8-.47-1.15l-.74-1.67-.03-.03c-2.2-4.8-4.55-9.68-7.04-14.48l-.1-.2c-.25-.47-.5-.99-.76-1.47-.32-.57-.63-1.18-1.14-1.76a5.3 5.3 0 00-8.2 0c-.47.58-.82 1.19-1.14 1.76-.25.52-.5 1.03-.76 1.5l-.1.2c-2.45 4.8-4.84 9.68-7.04 14.48l-.06.06c-.22.52-.48 1.06-.73 1.64-.16.35-.32.73-.48 1.15a6.8 6.8 0 007.2 9.23 8.38 8.38 0 003.18-1.1c1.3-.73 2.55-1.79 3.95-3.32 1.4 1.53 2.68 2.59 3.95 3.33A8.38 8.38 0 0022.75 32a6.79 6.79 0 006.75-5.83 5.94 5.94 0 00-.26-3.5zm-14.36 1.66c-1.72-2.2-2.84-4.22-3.22-5.95a5.2 5.2 0 01-.1-1.96c.07-.51.26-.96.52-1.34.6-.87 1.65-1.41 2.8-1.41a3.3 3.3 0 012.8 1.4c.26.4.45.84.51 1.35.1.58.06 1.25-.1 1.96-.38 1.7-1.5 3.74-3.21 5.95zm12.74 1.48a4.76 4.76 0 01-2.9 3.75c-.76.32-1.6.41-2.42.32-.8-.1-1.6-.36-2.42-.84a15.64 15.64 0 01-3.63-3.1c2.1-2.6 3.37-4.97 3.85-7.08.23-1 .26-1.9.16-2.73a5.53 5.53 0 00-.86-2.2 5.36 5.36 0 00-4.49-2.28c-1.85 0-3.5.86-4.5 2.27a5.18 5.18 0 00-.85 2.21c-.13.84-.1 1.77.16 2.73.48 2.11 1.78 4.51 3.85 7.1a14.33 14.33 0 01-3.63 3.12c-.83.48-1.62.73-2.42.83a4.76 4.76 0 01-5.32-4.07c-.1-.8-.03-1.6.29-2.5.1-.32.25-.64.41-1.02.22-.52.48-1.06.73-1.6l.04-.07c2.16-4.77 4.52-9.64 6.97-14.41l.1-.2c.25-.48.5-.99.76-1.47.26-.51.54-1 .9-1.4a3.32 3.32 0 015.09 0c.35.4.64.89.9 1.4.25.48.5 1 .76 1.47l.1.2c2.44 4.77 4.8 9.64 7 14.41l.03.03c.26.52.48 1.1.73 1.6.16.39.32.7.42 1.03.19.9.29 1.7.19 2.5zM41.54 24.12a5.02 5.02 0 01-3.95-1.83 6.55 6.55 0 01-1.6-4.48 6.96 6.96 0 011.66-4.58 5.3 5.3 0 014.08-1.86 4.3 4.3 0 013.7 1.92l.1-1.57h2.92V23.8h-2.93l-.1-1.76a4.52 4.52 0 01-3.88 2.08zm.76-2.88c.58 0 1.09-.16 1.57-.45.44-.32.8-.74 1.08-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.55.45zM53.45 8.46c0 .35-.06.67-.22.93-.16.25-.38.48-.67.64-.29.16-.6.22-.92.22-.32 0-.64-.06-.93-.22a1.84 1.84 0 01-.67-.64 1.82 1.82 0 01-.22-.93c0-.36.07-.68.22-.93.16-.3.39-.48.67-.64.29-.16.6-.23.93-.23a1.84 1.84 0 011.6.86 2 2 0 01.21.94zm-3.4 15.3V11.7h3.18v12.08h-3.19zm11.68-8.9v.04c-.15-.07-.35-.1-.5-.13-.2-.04-.36-.04-.55-.04-.89 0-1.56.26-2 .8-.48.55-.7 1.32-.7 2.31v5.93h-3.19V11.69h2.93l.1 1.83c.32-.64.7-1.12 1.24-1.48a3.1 3.1 0 011.81-.5c.23 0 .45.02.64.06.1.03.16.03.22.06v3.2zm1.28 8.9V6.74h3.18v6.5c.45-.58.96-1.03 1.6-1.38a5.02 5.02 0 016.08 1.31 6.55 6.55 0 011.6 4.49 6.96 6.96 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.1 1.57-2.92.03zm6.15-2.52c.57 0 1.08-.16 1.56-.45.44-.32.8-.74 1.08-1.25.26-.51.38-1.12.38-1.8 0-.67-.12-1.28-.38-1.79a3.75 3.75 0 00-1.08-1.25 2.95 2.95 0 00-3.12 0c-.45.32-.8.74-1.09 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.56.45zm7.51 2.53V11.69h2.93l.1 1.57a3.96 3.96 0 013.54-1.89 4.1 4.1 0 013.82 2.44c.35.76.54 1.7.54 2.75v7.24h-3.19v-6.82c0-.84-.19-1.5-.57-1.99-.38-.48-.9-.74-1.56-.74-.48 0-.9.1-1.27.32-.35.23-.64.52-.86.93a2.7 2.7 0 00-.32 1.35v6.92h-3.16zm12.52 0V6.73h3.19v6.5a4.67 4.67 0 013.73-1.89 5.02 5.02 0 013.95 1.83 6.57 6.57 0 011.59 4.48 6.95 6.95 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.09 1.57-2.93.03zm6.18-2.53c.58 0 1.09-.16 1.56-.45.45-.32.8-.74 1.09-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a3.63 3.63 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.95.45 1.55.45z"></path>
+                            </svg>
+                            <svg width="30" height="32" fill="#fff" style="display:none" class="appear-on-mobile-tablet">
+                                <path d="M29.24 22.68c-.16-.39-.31-.8-.47-1.15l-.74-1.67-.03-.03c-2.2-4.8-4.55-9.68-7.04-14.48l-.1-.2c-.25-.47-.5-.99-.76-1.47-.32-.57-.63-1.18-1.14-1.76a5.3 5.3 0 00-8.2 0c-.47.58-.82 1.19-1.14 1.76-.25.52-.5 1.03-.76 1.5l-.1.2c-2.45 4.8-4.84 9.68-7.04 14.48l-.06.06c-.22.52-.48 1.06-.73 1.64-.16.35-.32.73-.48 1.15a6.8 6.8 0 007.2 9.23 8.38 8.38 0 003.18-1.1c1.3-.73 2.55-1.79 3.95-3.32 1.4 1.53 2.68 2.59 3.95 3.33A8.38 8.38 0 0022.75 32a6.79 6.79 0 006.75-5.83 5.94 5.94 0 00-.26-3.5zm-14.36 1.66c-1.72-2.2-2.84-4.22-3.22-5.95a5.2 5.2 0 01-.1-1.96c.07-.51.26-.96.52-1.34.6-.87 1.65-1.41 2.8-1.41a3.3 3.3 0 012.8 1.4c.26.4.45.84.51 1.35.1.58.06 1.25-.1 1.96-.38 1.7-1.5 3.74-3.21 5.95zm12.74 1.48a4.76 4.76 0 01-2.9 3.75c-.76.32-1.6.41-2.42.32-.8-.1-1.6-.36-2.42-.84a15.64 15.64 0 01-3.63-3.1c2.1-2.6 3.37-4.97 3.85-7.08.23-1 .26-1.9.16-2.73a5.53 5.53 0 00-.86-2.2 5.36 5.36 0 00-4.49-2.28c-1.85 0-3.5.86-4.5 2.27a5.18 5.18 0 00-.85 2.21c-.13.84-.1 1.77.16 2.73.48 2.11 1.78 4.51 3.85 7.1a14.33 14.33 0 01-3.63 3.12c-.83.48-1.62.73-2.42.83a4.76 4.76 0 01-5.32-4.07c-.1-.8-.03-1.6.29-2.5.1-.32.25-.64.41-1.02.22-.52.48-1.06.73-1.6l.04-.07c2.16-4.77 4.52-9.64 6.97-14.41l.1-.2c.25-.48.5-.99.76-1.47.26-.51.54-1 .9-1.4a3.32 3.32 0 015.09 0c.35.4.64.89.9 1.4.25.48.5 1 .76 1.47l.1.2c2.44 4.77 4.8 9.64 7 14.41l.03.03c.26.52.48 1.1.73 1.6.16.39.32.7.42 1.03.19.9.29 1.7.19 2.5z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header-navbar__menu">
+                        <ul class="header-navbar__list">
+                            <li class="header-navbar__item">Nơi ở</li>
+                            <li class="header-navbar__item">Trải nghiệm</li>
+                            <li class="header-navbar__item">Trải nghiệm trực tuyến</li>
+                        </ul>
+                    </div>
+                    <div class="header-navbar__user">
+                        <div class="header-navbar__user-list">
+                            <div class="header-navbar__user-item">
+                                <span class="header-navbar__user-host">Trở thành chủ nhà</span>
+                            </div>
+                            <div class="header-navbar__user-item">
+                                <div class="header-navbar__user-item--icon">
+                                    <i class="icon fas fa-globe"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn header-navbar__form">
+                            <div class="header-navbar__form-bars">
+                                <i class="fas fa-bars"></i>
+                            </div>
+                            <div class="header-navbar__form-avt">
+                                <i class="far fa-user-circle"></i>
+                            </div>
+                        </button>
+                    </div>
+
+
+                </div>
+                <div class="header-scroll hidden">
+                    <div class="grid wide">
+                        <div class="header-scroll-content">
+                            <div class="header-logo-scroll">
+                                <a href="/" class="header-logo__link-scroll">
+                                    <svg width="102" height="32" fill="#ff385c" style="display: block;" class="hide-on-mobile-tablet">
+                                        <path d="M29.24 22.68c-.16-.39-.31-.8-.47-1.15l-.74-1.67-.03-.03c-2.2-4.8-4.55-9.68-7.04-14.48l-.1-.2c-.25-.47-.5-.99-.76-1.47-.32-.57-.63-1.18-1.14-1.76a5.3 5.3 0 00-8.2 0c-.47.58-.82 1.19-1.14 1.76-.25.52-.5 1.03-.76 1.5l-.1.2c-2.45 4.8-4.84 9.68-7.04 14.48l-.06.06c-.22.52-.48 1.06-.73 1.64-.16.35-.32.73-.48 1.15a6.8 6.8 0 007.2 9.23 8.38 8.38 0 003.18-1.1c1.3-.73 2.55-1.79 3.95-3.32 1.4 1.53 2.68 2.59 3.95 3.33A8.38 8.38 0 0022.75 32a6.79 6.79 0 006.75-5.83 5.94 5.94 0 00-.26-3.5zm-14.36 1.66c-1.72-2.2-2.84-4.22-3.22-5.95a5.2 5.2 0 01-.1-1.96c.07-.51.26-.96.52-1.34.6-.87 1.65-1.41 2.8-1.41a3.3 3.3 0 012.8 1.4c.26.4.45.84.51 1.35.1.58.06 1.25-.1 1.96-.38 1.7-1.5 3.74-3.21 5.95zm12.74 1.48a4.76 4.76 0 01-2.9 3.75c-.76.32-1.6.41-2.42.32-.8-.1-1.6-.36-2.42-.84a15.64 15.64 0 01-3.63-3.1c2.1-2.6 3.37-4.97 3.85-7.08.23-1 .26-1.9.16-2.73a5.53 5.53 0 00-.86-2.2 5.36 5.36 0 00-4.49-2.28c-1.85 0-3.5.86-4.5 2.27a5.18 5.18 0 00-.85 2.21c-.13.84-.1 1.77.16 2.73.48 2.11 1.78 4.51 3.85 7.1a14.33 14.33 0 01-3.63 3.12c-.83.48-1.62.73-2.42.83a4.76 4.76 0 01-5.32-4.07c-.1-.8-.03-1.6.29-2.5.1-.32.25-.64.41-1.02.22-.52.48-1.06.73-1.6l.04-.07c2.16-4.77 4.52-9.64 6.97-14.41l.1-.2c.25-.48.5-.99.76-1.47.26-.51.54-1 .9-1.4a3.32 3.32 0 015.09 0c.35.4.64.89.9 1.4.25.48.5 1 .76 1.47l.1.2c2.44 4.77 4.8 9.64 7 14.41l.03.03c.26.52.48 1.1.73 1.6.16.39.32.7.42 1.03.19.9.29 1.7.19 2.5zM41.54 24.12a5.02 5.02 0 01-3.95-1.83 6.55 6.55 0 01-1.6-4.48 6.96 6.96 0 011.66-4.58 5.3 5.3 0 014.08-1.86 4.3 4.3 0 013.7 1.92l.1-1.57h2.92V23.8h-2.93l-.1-1.76a4.52 4.52 0 01-3.88 2.08zm.76-2.88c.58 0 1.09-.16 1.57-.45.44-.32.8-.74 1.08-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.55.45zM53.45 8.46c0 .35-.06.67-.22.93-.16.25-.38.48-.67.64-.29.16-.6.22-.92.22-.32 0-.64-.06-.93-.22a1.84 1.84 0 01-.67-.64 1.82 1.82 0 01-.22-.93c0-.36.07-.68.22-.93.16-.3.39-.48.67-.64.29-.16.6-.23.93-.23a1.84 1.84 0 011.6.86 2 2 0 01.21.94zm-3.4 15.3V11.7h3.18v12.08h-3.19zm11.68-8.9v.04c-.15-.07-.35-.1-.5-.13-.2-.04-.36-.04-.55-.04-.89 0-1.56.26-2 .8-.48.55-.7 1.32-.7 2.31v5.93h-3.19V11.69h2.93l.1 1.83c.32-.64.7-1.12 1.24-1.48a3.1 3.1 0 011.81-.5c.23 0 .45.02.64.06.1.03.16.03.22.06v3.2zm1.28 8.9V6.74h3.18v6.5c.45-.58.96-1.03 1.6-1.38a5.02 5.02 0 016.08 1.31 6.55 6.55 0 011.6 4.49 6.96 6.96 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.1 1.57-2.92.03zm6.15-2.52c.57 0 1.08-.16 1.56-.45.44-.32.8-.74 1.08-1.25.26-.51.38-1.12.38-1.8 0-.67-.12-1.28-.38-1.79a3.75 3.75 0 00-1.08-1.25 2.95 2.95 0 00-3.12 0c-.45.32-.8.74-1.09 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.56.45zm7.51 2.53V11.69h2.93l.1 1.57a3.96 3.96 0 013.54-1.89 4.1 4.1 0 013.82 2.44c.35.76.54 1.7.54 2.75v7.24h-3.19v-6.82c0-.84-.19-1.5-.57-1.99-.38-.48-.9-.74-1.56-.74-.48 0-.9.1-1.27.32-.35.23-.64.52-.86.93a2.7 2.7 0 00-.32 1.35v6.92h-3.16zm12.52 0V6.73h3.19v6.5a4.67 4.67 0 013.73-1.89 5.02 5.02 0 013.95 1.83 6.57 6.57 0 011.59 4.48 6.95 6.95 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.09 1.57-2.93.03zm6.18-2.53c.58 0 1.09-.16 1.56-.45.45-.32.8-.74 1.09-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a3.63 3.63 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.95.45 1.55.45z"></path>
+                                    </svg>
+                                    <svg width="30" height="32" fill="#ff385c" style="display:none" class="appear-on-mobile-tablet">
+                                        <path d="M29.24 22.68c-.16-.39-.31-.8-.47-1.15l-.74-1.67-.03-.03c-2.2-4.8-4.55-9.68-7.04-14.48l-.1-.2c-.25-.47-.5-.99-.76-1.47-.32-.57-.63-1.18-1.14-1.76a5.3 5.3 0 00-8.2 0c-.47.58-.82 1.19-1.14 1.76-.25.52-.5 1.03-.76 1.5l-.1.2c-2.45 4.8-4.84 9.68-7.04 14.48l-.06.06c-.22.52-.48 1.06-.73 1.64-.16.35-.32.73-.48 1.15a6.8 6.8 0 007.2 9.23 8.38 8.38 0 003.18-1.1c1.3-.73 2.55-1.79 3.95-3.32 1.4 1.53 2.68 2.59 3.95 3.33A8.38 8.38 0 0022.75 32a6.79 6.79 0 006.75-5.83 5.94 5.94 0 00-.26-3.5zm-14.36 1.66c-1.72-2.2-2.84-4.22-3.22-5.95a5.2 5.2 0 01-.1-1.96c.07-.51.26-.96.52-1.34.6-.87 1.65-1.41 2.8-1.41a3.3 3.3 0 012.8 1.4c.26.4.45.84.51 1.35.1.58.06 1.25-.1 1.96-.38 1.7-1.5 3.74-3.21 5.95zm12.74 1.48a4.76 4.76 0 01-2.9 3.75c-.76.32-1.6.41-2.42.32-.8-.1-1.6-.36-2.42-.84a15.64 15.64 0 01-3.63-3.1c2.1-2.6 3.37-4.97 3.85-7.08.23-1 .26-1.9.16-2.73a5.53 5.53 0 00-.86-2.2 5.36 5.36 0 00-4.49-2.28c-1.85 0-3.5.86-4.5 2.27a5.18 5.18 0 00-.85 2.21c-.13.84-.1 1.77.16 2.73.48 2.11 1.78 4.51 3.85 7.1a14.33 14.33 0 01-3.63 3.12c-.83.48-1.62.73-2.42.83a4.76 4.76 0 01-5.32-4.07c-.1-.8-.03-1.6.29-2.5.1-.32.25-.64.41-1.02.22-.52.48-1.06.73-1.6l.04-.07c2.16-4.77 4.52-9.64 6.97-14.41l.1-.2c.25-.48.5-.99.76-1.47.26-.51.54-1 .9-1.4a3.32 3.32 0 015.09 0c.35.4.64.89.9 1.4.25.48.5 1 .76 1.47l.1.2c2.44 4.77 4.8 9.64 7 14.41l.03.03c.26.52.48 1.1.73 1.6.16.39.32.7.42 1.03.19.9.29 1.7.19 2.5z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="header-scroll-search">
+                                <button class="btn header-scroll-search__btn">
+                                    <span class="header-scroll-search__content">Bắt đầu tìm kiếm</span>
+                                    <div class="header-scroll-search__icon">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="header-navbar__user header-navbar__user-scroll">
+                                <div class="header-navbar__user-list">
+                                    <div class="header-navbar__user-item header-navbar__user-item-scroll">
+                                        <span class="header-navbar__user-host header-navbar__user-host-scroll">Trở thành chủ nhà</span>
+                                    </div>
+                                    <div class="header-navbar__user-item header-navbar__user-item-scroll">
+                                        <div class="header-navbar__user-item--icon">
+                                            <i class="icon fas fa-globe"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn header-navbar__form header-navbar__form-scroll">
+                                    <div class="header-navbar__form-bars">
+                                        <i class="fas fa-bars"></i>
+                                    </div>
+                                    <div class="header-navbar__form-avt">
+                                        <i class="far fa-user-circle"></i>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- <div class="header-logo header-logo-scroll">
+                            <a href="/" class="header-logo__link header-logo__link-scroll">
+                                <svg width="102" height="32" fill="#ff385c" style="display: block;">
+                                    <path d="M29.24 22.68c-.16-.39-.31-.8-.47-1.15l-.74-1.67-.03-.03c-2.2-4.8-4.55-9.68-7.04-14.48l-.1-.2c-.25-.47-.5-.99-.76-1.47-.32-.57-.63-1.18-1.14-1.76a5.3 5.3 0 00-8.2 0c-.47.58-.82 1.19-1.14 1.76-.25.52-.5 1.03-.76 1.5l-.1.2c-2.45 4.8-4.84 9.68-7.04 14.48l-.06.06c-.22.52-.48 1.06-.73 1.64-.16.35-.32.73-.48 1.15a6.8 6.8 0 007.2 9.23 8.38 8.38 0 003.18-1.1c1.3-.73 2.55-1.79 3.95-3.32 1.4 1.53 2.68 2.59 3.95 3.33A8.38 8.38 0 0022.75 32a6.79 6.79 0 006.75-5.83 5.94 5.94 0 00-.26-3.5zm-14.36 1.66c-1.72-2.2-2.84-4.22-3.22-5.95a5.2 5.2 0 01-.1-1.96c.07-.51.26-.96.52-1.34.6-.87 1.65-1.41 2.8-1.41a3.3 3.3 0 012.8 1.4c.26.4.45.84.51 1.35.1.58.06 1.25-.1 1.96-.38 1.7-1.5 3.74-3.21 5.95zm12.74 1.48a4.76 4.76 0 01-2.9 3.75c-.76.32-1.6.41-2.42.32-.8-.1-1.6-.36-2.42-.84a15.64 15.64 0 01-3.63-3.1c2.1-2.6 3.37-4.97 3.85-7.08.23-1 .26-1.9.16-2.73a5.53 5.53 0 00-.86-2.2 5.36 5.36 0 00-4.49-2.28c-1.85 0-3.5.86-4.5 2.27a5.18 5.18 0 00-.85 2.21c-.13.84-.1 1.77.16 2.73.48 2.11 1.78 4.51 3.85 7.1a14.33 14.33 0 01-3.63 3.12c-.83.48-1.62.73-2.42.83a4.76 4.76 0 01-5.32-4.07c-.1-.8-.03-1.6.29-2.5.1-.32.25-.64.41-1.02.22-.52.48-1.06.73-1.6l.04-.07c2.16-4.77 4.52-9.64 6.97-14.41l.1-.2c.25-.48.5-.99.76-1.47.26-.51.54-1 .9-1.4a3.32 3.32 0 015.09 0c.35.4.64.89.9 1.4.25.48.5 1 .76 1.47l.1.2c2.44 4.77 4.8 9.64 7 14.41l.03.03c.26.52.48 1.1.73 1.6.16.39.32.7.42 1.03.19.9.29 1.7.19 2.5zM41.54 24.12a5.02 5.02 0 01-3.95-1.83 6.55 6.55 0 01-1.6-4.48 6.96 6.96 0 011.66-4.58 5.3 5.3 0 014.08-1.86 4.3 4.3 0 013.7 1.92l.1-1.57h2.92V23.8h-2.93l-.1-1.76a4.52 4.52 0 01-3.88 2.08zm.76-2.88c.58 0 1.09-.16 1.57-.45.44-.32.8-.74 1.08-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.55.45zM53.45 8.46c0 .35-.06.67-.22.93-.16.25-.38.48-.67.64-.29.16-.6.22-.92.22-.32 0-.64-.06-.93-.22a1.84 1.84 0 01-.67-.64 1.82 1.82 0 01-.22-.93c0-.36.07-.68.22-.93.16-.3.39-.48.67-.64.29-.16.6-.23.93-.23a1.84 1.84 0 011.6.86 2 2 0 01.21.94zm-3.4 15.3V11.7h3.18v12.08h-3.19zm11.68-8.9v.04c-.15-.07-.35-.1-.5-.13-.2-.04-.36-.04-.55-.04-.89 0-1.56.26-2 .8-.48.55-.7 1.32-.7 2.31v5.93h-3.19V11.69h2.93l.1 1.83c.32-.64.7-1.12 1.24-1.48a3.1 3.1 0 011.81-.5c.23 0 .45.02.64.06.1.03.16.03.22.06v3.2zm1.28 8.9V6.74h3.18v6.5c.45-.58.96-1.03 1.6-1.38a5.02 5.02 0 016.08 1.31 6.55 6.55 0 011.6 4.49 6.96 6.96 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.1 1.57-2.92.03zm6.15-2.52c.57 0 1.08-.16 1.56-.45.44-.32.8-.74 1.08-1.25.26-.51.38-1.12.38-1.8 0-.67-.12-1.28-.38-1.79a3.75 3.75 0 00-1.08-1.25 2.95 2.95 0 00-3.12 0c-.45.32-.8.74-1.09 1.25a4.01 4.01 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.98.45 1.56.45zm7.51 2.53V11.69h2.93l.1 1.57a3.96 3.96 0 013.54-1.89 4.1 4.1 0 013.82 2.44c.35.76.54 1.7.54 2.75v7.24h-3.19v-6.82c0-.84-.19-1.5-.57-1.99-.38-.48-.9-.74-1.56-.74-.48 0-.9.1-1.27.32-.35.23-.64.52-.86.93a2.7 2.7 0 00-.32 1.35v6.92h-3.16zm12.52 0V6.73h3.19v6.5a4.67 4.67 0 013.73-1.89 5.02 5.02 0 013.95 1.83 6.57 6.57 0 011.59 4.48 6.95 6.95 0 01-1.66 4.58 5.3 5.3 0 01-4.08 1.86 4.3 4.3 0 01-3.7-1.92l-.09 1.57-2.93.03zm6.18-2.53c.58 0 1.09-.16 1.56-.45.45-.32.8-.74 1.09-1.25.25-.51.38-1.12.38-1.8a3.42 3.42 0 00-1.47-3.04 2.95 2.95 0 00-3.12 0c-.44.32-.8.74-1.08 1.25a3.63 3.63 0 00-.38 1.8 3.42 3.42 0 001.47 3.04c.47.29.95.45 1.55.45z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="header-scroll-search">
+                            <button class="btn header-scroll-search__btn">
+                                <span class="header-scroll-search__content">Bắt đầu tìm kiếm</span>
+                                <div class="header-scroll-search__icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="header-navbar__user header-navbar__user-scroll">
+                            <div class="header-navbar__user-list">
+                                <div class="header-navbar__user-item header-navbar__user-item-scroll">
+                                    <span class="header-navbar__user-host header-navbar__user-host-scroll">Trở thành chủ nhà</span>
+                                </div>
+                                <div class="header-navbar__user-item header-navbar__user-item-scroll">
+                                    <div class="header-navbar__user-item--icon">
+                                        <i class="icon fas fa-globe"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn header-navbar__form header-navbar__form-scroll">
+                                <div class="header-navbar__form-bars">
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                                <div class="header-navbar__form-avt">
+                                    <i class="far fa-user-circle"></i>
+                                </div>
+                            </button>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="header-search">
+                    <ul class="header-search__list">
+                        <li class="header-search__item">
+                            <div class="header-search__item-box">
+                                <h3 class="header-search__item-heading">Địa điểm</h3>
+                                <span class="header-search__item-desc">Bạn sắp đi đâu?</span>
+                            </div>
+                        </li>
+                        <li class="header-search__item">
+                            <div class="header-search__item-box">
+                                <h3 class="header-search__item-heading">Nhận phòng</h3>
+                                <span class="header-search__item-desc">Thêm Ngày</span>
+                            </div>
+                        </li>
+                        <li class="header-search__item">
+                            <div class="header-search__item-box">
+                                <h3 class="header-search__item-heading">Trả phòng</h3>
+                                <span class="header-search__item-desc">Thêm ngày</span>
+                            </div>
+                        </li>
+                        <li class="header-search__item">
+                            <div class="header-search__item-box">
+                                <h3 class="header-search__item-heading">Khách</h3>
+                                <span class="header-search__item-desc">Thêm khách</span>
+                            </div>
+                            <button class="btn header-search__icon">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-content">
+                    <div class="header-content__container">
+                        <div class="header-content__heading">
+                            <span class="header-content__where-want">Bạn chưa biết nên đi đâu? Tuyệt!</span>
+                        </div>
+                        <button class="btn header-content__search">
+                            <div class="header-content__search-btn">Tìm kiếm linh hoạt</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="app__container-places">
+                    <h1 class="app__container-heading">Khám phá những điểm đến gần đây</h1>
+                    <ul class="row app__container-list">
+                        <li class="col l-3 m-4 app__container-item">
+                            <img src="./assets/img/NhaTrang.jpg" alt="" class="app__container-item--img">
+                            <div class="app__container-item--content">
+                                <span class="app__container-item--name">Nha Trang</span>
+                                <span class="app__container-item--hours">5 giờ lái xe</span>
+                            </div>
+                        </li>
+                        <li class="col l-3 m-4 app__container-item">
+                            <img src="./assets/img/HoiAn.png" alt="" class="app__container-item--img">
+                            <div class="app__container-item--content">
+                                <span class="app__container-item--name">Thành phố Hội An</span>
+                                <span class="app__container-item--hours">2 giờ lái xe</span>
+                            </div>
+                        </li>
+                        <li class="col l-3 m-4 app__container-item">
+                            <img src="./assets/img/TuyHoa.png" alt="" class="app__container-item--img">
+                            <div class="app__container-item--content">
+                                <span class="app__container-item--name">Thành phố Tuy Hoà</span>
+                                <span class="app__container-item--hours">3,5 giờ lái xe</span>
+                            </div>
+                        </li>
+                        <li class="col l-3 m-4 app__container-item">
+                            <img src="./assets/img/PhanRangThapCham.png" alt="" class="app__container-item--img">
+                            <div class="app__container-item--content">
+                                <span class="app__container-item--name">Thành phố Phan Rang-Tháp Chàm</span>
+                                <span class="app__container-item--hours">6 giờ lái xe</span>
+                            </div>
+                        </li>
+                        <li class="col l-3 m-4 app__container-item">
+                            <img src="./assets/img/DongHoi.jpg" alt="" class="app__container-item--img">
+                            <div class="app__container-item--content">
+                                <span class="app__container-item--name">Thành phố Đồng Hới</span>
+                                <span class="app__container-item--hours">5,5 giờ lái xe</span>
+                            </div>
+                        </li>
+                        <li class="col l-3 m-4 app__container-item">
+                            <img src="./assets/img/BuonMaThuot.png" alt="" class="app__container-item--img">
+                            <div class="app__container-item--content">
+                                <span class="app__container-item--name">Thành phố Buôn Ma Thuột</span>
+                                <span class="app__container-item--hours">6,5 giờ lái xe</span>
+                            </div>
+                        </li>
+                        <li class="col l-3 m-4 app__container-item hide-on-mobile-tablet">
+                            <img src="./assets/img/BaoLoc.jpg" alt="" class="app__container-item--img">
+                            <div class="app__container-item--content">
+                                <span class="app__container-item--name">Thành phố Bảo Lộc</span>
+                                <span class="app__container-item--hours">8,5 giờ lái xe</span>
+                            </div>
+                        </li>
+                        <li class="col l-3 m-4 app__container-item hide-on-mobile-tablet">
+                            <img src="./assets/img/Pleiku.png" alt="" class="app__container-item--img">
+                            <div class="app__container-item--content">
+                                <span class="app__container-item--name">Thành phố Pleiku</span>
+                                <span class="app__container-item--hours">4 giờ lái xe</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="app__container-places">
+                    <h1 class="app__container-heading">Ở bất cứ đâu</h1>
+                    <ul class="row app__container-list">
+                        <li class="col l-3 app__container-home">
+                            <div class="app__container-content">
+                                <img src="./assets/img/home1.jpg" alt="" class="app__container-home--img">
+                                <h2 class="app__container-home--desc">Nơi nghỉ dưỡng ngoài trời</h2>
+                            </div>
+                        </li>
+                        <li class="col l-3 app__container-home">
+                            <div class="app__container-content">
+                                <img src="./assets/img/home2.jpg" alt="" class="app__container-home--img">
+                                <h2 class="app__container-home--desc">Chỗ ở độc đáo</h2>
+                            </div>
+                        </li>
+                        <li class="col l-3 app__container-home">
+                            <div class="app__container-content">
+                                <img src="./assets/img/home3.jpg" alt="" class="app__container-home--img">
+                                <h2 class="app__container-home--desc">Toàn bộ nhà</h2>
+                            </div>
+                        </li>
+                        <li class="col l-3 app__container-home">
+                            <div class="app__container-content">
+                                <img src="./assets/img/home4.jpg" alt="" class="app__container-home--img">
+                                <h2 class="app__container-home--desc">Cho phép mang theo thú cưng</h2>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="app__container-slider">
+                    <img src="./assets/img/containerSlider.jpg" alt="" class="app__container-slider-img">
+                    <div class="app__container-slider-content">
+                        <h1 class="app__container-slider-heading">Thử đón tiếp khách</h1>
+                        <span class="app__container-slider-desc">Kiếm thêm thu nhập và khám phá các cơ hội mới bằng cách chia sẻ nơi ở của bạn.</span>
+                        <div class="app__container-slider-more">
+                            <button class="btn app__container-slider-btn">Tìm hiểu thêm</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app__container-travel">
+                    <h1 class="app__container-heading">Khám phá những điều nên trải nghiệm</h1>
+                    <ul class="row app__container-list app__container-travel-list">
+                        <li class="col l-4 app__container-item app__container-travel-item">
+                            <div class="app__container-travel--main">
+                                <img src="./assets/img/travel.jpg" alt="" class="app__container-travel--img">
+                                <div class="app__container-travel--content">
+                                    <h2 class="app__container-travel--heading">Trải nghiệm</h2>
+                                    <span class="app__container-travel--desc">Tìm các hoạt động khó quên gần bạn.</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col l-4 app__container-item app__container-travel-item">
+                            <div class="app__container-travel--main">
+                                <img src="./assets/img/travelOnline.jpg" alt="" class="app__container-travel--img">
+                                <div class="app__container-travel-content">
+                                    <h2 class="app__container-travel--heading">Trải nghiệm trực tuyến</h2>
+                                    <span class="app__container-travel--desc">Các hoạt động tương tác, truyền trực tiếp dưới sự dẫn dắt của Người tổ chức.</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col l-4 app__container-item app__container-travel-item">
+                            <div class="app__container-travel--main">
+                                <img src="./assets/img/travelCollection.jpg" alt="" class="app__container-travel--img">
+                                <div class="app__container-travel-content">
+                                    <h2 class="app__container-travel--heading">Bộ sưu tập nổi bật: Phiêu du</h2>
+                                    <span class="app__container-travel--desc">Du lịch tại nhà với trải nghiệm trực tuyến</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row footer-container">
+                    <div class="col l-3 footer-content">
+                        <h2 class="footer-heading">Giới thiệu</h2>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Phương thức hoạt động của Airbnb</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Trang tin tức</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Airbnb 2021</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Nhà đầu tư</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Airbnb Plus</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Airbnb Luxe</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">HotelTonight</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Airbnb for Work</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Nhờ có Host, mọi điều đều có thể</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Cơ hội nghề nghiệp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Thư của nhà sáng lập</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 footer-content">
+                        <h2 class="footer-heading">Cộng đồng</h2>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Sự đa dạng và Cảm giác thân thuộc</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Tiện nghi phù hợp với người có nhu cầu đặc biệt</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Đối tác liên kết Airbnb</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Đón tiếp người tị nạn Afghanistan</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Lượt giới thiệu của khách</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Airbnb.org</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 footer-content">
+                        <h2 class="footer-heading">Đón tiếp khách</h2>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Cho thuê nhà</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Tổ chức Trải nghiệm trực tuyến</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Tổ chức trải nghiệm</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Đón tiếp khách có trách nhiệm</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Trung tâm tài nguyên</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Trung tâm cộng đồng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-3 footer-content">
+                        <h2 class="footer-heading">Hỗ trợ</h2>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Biện pháp ứng phó với đại dịch COVID-19 của chúng tôi</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Các tùy chọn hủy</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Hỗ trợ khu dân cư</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="/" class="footer-link">Tin cậy và an toàn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row footer-bottom">
+                    <div class="col l-6 footer-copyright">
+                        <ul class="footer-copyright__list">
+                            <li class="footer-copyright__item">
+                                <span class="footer-copyright__from">© 2021 Airbnb, Inc.</span>
+                            </li>
+                            <li class="footer-copyright__item">
+                                <span class="footer-copyright__dot">·</span>
+                                <a href="" class="footer-copyright__link">Quyền riêng tư</a>
+                            </li>
+                            <li class="footer-copyright__item">
+                                <span class="footer-copyright__dot">·</span>
+                                <a href="" class="footer-copyright__link">Điều khoản</a>
+                            </li>
+                            <li class="footer-copyright__item">
+                                <span class="footer-copyright__dot">·</span>
+                                <a href="" class="footer-copyright__link">Sơ đồ trang web</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-6 footer-contact">
+                        <div class="footer-contact__setting">
+                            <div class="footer-contact__language">
+                                <i class="icon fas fa-globe"></i>
+                                <span class="footer-contact__language-name">Tiếng Việt (VN)</span>
+                            </div>
+                            <div class="footer-contact__money">
+                                <i class="icon fas fa-dollar-sign"></i>
+                                <span class="footer-contact__money-name">USD</span>
+                            </div>
+                        </div>
+                        <div class="footer-contact__social">
+                            <a href="https://www.facebook.com/van.chi.1410" class="footer-contact__social-link">
+                                <i class="icon footer-contact__social-icon fab fa-facebook-f"></i>
+                            </a>
+                            <a href="" class="footer-contact__social-link">
+                                <i class="icon footer-contact__social-icon fab fa-twitter"></i>
+                            </a>
+                            <a href="" class="footer-contact__social-link">
+                                <i class="icon footer-contact__social-icon fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="modal">
+        <div class="modal__container">
+            <div class="grid__row-24">
+                <button class="modal__close col-full-width">
+                    <i class="modal__close-icon fas fa-times"></i>
+                </button>
+                <div class="modal__header col-full-width">
+                    <div class="modal__header-type">
+                        <span class="modal__header-type-content">Ngôn ngữ và khu vực</span>
+                        <span class="modal__header-type-content">Loại tiền tệ</span>
+                    </div>
+                    <div class="modal__header-offer">
+                        <h1 class="modal__header-offer-title">Ngôn ngữ và khu vực được đề xuất</h1>
+                        <ul class="modal__header-offer-list">
+                            <li class="modal__header-offer-item col-5">
+                                <a href="" class="modal__header-offer-item-link">
+                                    <span class="modal__header-offer-item-lg">Français</span>
+                                    <span class="modal__header-offer-item-nation">France</span>
+                                </a>
+                            </li>
+                            <li class="modal__header-offer-item col-5">
+                                <a href="" class="modal__header-offer-item-link">
+                                    <span class="modal__header-offer-item-lg">English</span>
+                                    <span class="modal__header-offer-item-nation">United States</span>
+                                </a>
+                            </li>
+                            <li class="modal__header-offer-item col-5">
+                                <a href="" class="modal__header-offer-item-link">
+                                    <span class="modal__header-offer-item-lg">English</span>
+                                    <span class="modal__header-offer-item-nation">United Kingdom</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal__body col-full-width">
+                    <h1 class="modal__body-title">Chọn ngôn ngữ và khu vực</h1>
+                    <div class="modal__body-content">
+                        <ul class="modal__body-content-list">
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Tiếng Việt</span>
+                                    <span class="modal__body-content-item-nation">Việt Nam</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Azərbaycan dili</span>
+                                    <span class="modal__body-content-item-nation">Azərbaycan</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Bahasa Indonesia</span>
+                                    <span class="modal__body-content-item-nation">Indonesia</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Bosanski</span>
+                                    <span class="modal__body-content-item-nation">Bosna i Hercegovina</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Català</span>
+                                    <span class="modal__body-content-item-nation">Espanya</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Čeština</span>
+                                    <span class="modal__body-content-item-nation">Česká republika</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Crnogorski</span>
+                                    <span class="modal__body-content-item-nation">Crna Gora</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Dansk</span>
+                                    <span class="modal__body-content-item-nation">Danmark</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Deutsch</span>
+                                    <span class="modal__body-content-item-nation">Deutschland</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Deutsch</span>
+                                    <span class="modal__body-content-item-nation">Österreich</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Deutsch</span>
+                                    <span class="modal__body-content-item-nation">Schweiz</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Eesti</span>
+                                    <span class="modal__body-content-item-nation">Eesti</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">English</span>
+                                    <span class="modal__body-content-item-nation">Australia</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">English</span>
+                                    <span class="modal__body-content-item-nation">Canada</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">English</span>
+                                    <span class="modal__body-content-item-nation">Guyana</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">English</span>
+                                    <span class="modal__body-content-item-nation">India</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">English</span>
+                                    <span class="modal__body-content-item-nation">Ireland</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">English</span>
+                                    <span class="modal__body-content-item-nation">New Zealand</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">English</span>
+                                    <span class="modal__body-content-item-nation">Singapore</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">English</span>
+                                    <span class="modal__body-content-item-nation">United Arab Emirates</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Argentina</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Belice</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Bolivia</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Chile</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Colombia</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Costa Rica</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Ecuador</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">El Salvador</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">España</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Estados Unidos</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Guatemala</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Honduras</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Latinoamérica</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">México</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Nicaragua</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Panamá</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Paraguay</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Perú</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Español</span>
+                                    <span class="modal__body-content-item-nation">Venezuela</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Français</span>
+                                    <span class="modal__body-content-item-nation">Belgique</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Français</span>
+                                    <span class="modal__body-content-item-nation">Canada/span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Français</span>
+                                    <span class="modal__body-content-item-nation">Suisse</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Gaeilge</span>
+                                    <span class="modal__body-content-item-nation">Éire</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Hrvatski</span>
+                                    <span class="modal__body-content-item-nation">Hrvatska</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">isiXhosa</span>
+                                    <span class="modal__body-content-item-nation">eMzantsi Afrika</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">isiZulu</span>
+                                    <span class="modal__body-content-item-nation">iNingizimu Afrika</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Íslenska</span>
+                                    <span class="modal__body-content-item-nation">Ísland</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Italiano</span>
+                                    <span class="modal__body-content-item-nation">Italia</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Italiano</span>
+                                    <span class="modal__body-content-item-nation">Svizzera</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Kiswahili</span>
+                                    <span class="modal__body-content-item-nation">Āfrika</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Latviešu</span>
+                                    <span class="modal__body-content-item-nation">Latvija</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Lietuvių</span>
+                                    <span class="modal__body-content-item-nation">Lietuva</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Magyar</span>
+                                    <span class="modal__body-content-item-nation">Magyarország</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Malti</span>
+                                    <span class="modal__body-content-item-nation">Malta</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Melayu</span>
+                                    <span class="modal__body-content-item-nation">Malaysia</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Nederlands</span>
+                                    <span class="modal__body-content-item-nation">België</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Nederlands</span>
+                                    <span class="modal__body-content-item-nation">Nederland</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Norsk</span>
+                                    <span class="modal__body-content-item-nation">Norge</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Polski</span>
+                                    <span class="modal__body-content-item-nation">Polska</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Português</span>
+                                    <span class="modal__body-content-item-nation">Brasil</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Português</span>
+                                    <span class="modal__body-content-item-nation">Portugal</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Română</span>
+                                    <span class="modal__body-content-item-nation">România</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Shqip</span>
+                                    <span class="modal__body-content-item-nation">Shqipëri</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Slovenčina</span>
+                                    <span class="modal__body-content-item-nation">Slovensko</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Slovenščina</span>
+                                    <span class="modal__body-content-item-nation">Slovenija</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Srpski</span>
+                                    <span class="modal__body-content-item-nation">Srbija</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Suomi</span>
+                                    <span class="modal__body-content-item-nation">Suomi</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Svenska</span>
+                                    <span class="modal__body-content-item-nation">Sverige</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Tagalog</span>
+                                    <span class="modal__body-content-item-nation">Pilipinas</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Türkçe</span>
+                                    <span class="modal__body-content-item-nation">Türkiye</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Ελληνικά</span>
+                                    <span class="modal__body-content-item-nation">Ελλάδα</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Български</span>
+                                    <span class="modal__body-content-item-nation">България</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Македонски</span>
+                                    <span class="modal__body-content-item-nation">Северна Македонија</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Русский</span>
+                                    <span class="modal__body-content-item-nation">Россия</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Українська</span>
+                                    <span class="modal__body-content-item-nation">Україна</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">ქართული</span>
+                                    <span class="modal__body-content-item-nation">საქართველო</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">Հայերեն</span>
+                                    <span class="modal__body-content-item-nation">Հայաստան</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">עברית</span>
+                                    <span class="modal__body-content-item-nation">ישראל</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">العربية</span>
+                                    <span class="modal__body-content-item-nation">العالم</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">हिन्दी</span>
+                                    <span class="modal__body-content-item-nation">भारत</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">ไทย</span>
+                                    <span class="modal__body-content-item-nation">ประเทศไทย</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">한국어</span>
+                                    <span class="modal__body-content-item-nation">대한민국</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">日本語</span>
+                                    <span class="modal__body-content-item-nation">日本</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">简体中文</span>
+                                    <span class="modal__body-content-item-nation">美国</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">繁體中文</span>
+                                    <span class="modal__body-content-item-nation">美國</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">简体中文</span>
+                                    <span class="modal__body-content-item-nation">中国</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">繁體中文</span>
+                                    <span class="modal__body-content-item-nation">香港</span>
+                                </a>
+                            </li>
+                            <li class="modal__body-content-item col-5">
+                                <a href="" class="modal__body-content-item-link">
+                                    <span class="modal__body-content-item-lg">繁體中文</span>
+                                    <span class="modal__body-content-item-nation">台灣</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
