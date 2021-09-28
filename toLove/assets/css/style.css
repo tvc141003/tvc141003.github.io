@@ -1,0 +1,124 @@
+.container {
+    height: 100vh;
+    background-image: linear-gradient(45deg, #5a075a, #d85688, pink); 
+    position: relative;
+    display: flex;
+}
+
+.box {
+    width: 350px;
+    height: 190px;
+    background-image: linear-gradient(45deg, #f525b0, #0CECDD);
+    position: relative;
+    margin: auto;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    /* transition: top linear 0.2s, left linear 0.2s; */
+    transition: all linear 0.2s;
+    animation: zoomUp linear 0.2s;
+}
+
+.box-title__sad {
+    display: none;
+}
+
+.box-icon {
+    display: flex;
+    justify-content: flex-end;
+    margin: 4px;
+}
+
+.box-close {
+    width: 32px;
+    height: 32px;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 16px;
+    color: #fff;
+    background-color: rgb(14, 13, 13);
+}
+
+.box-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    background: -webkit-linear-gradient(45deg, #44015c, #f806c0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box-title a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+}
+
+.submit {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2.2rem;
+    margin-bottom: 24px;
+}
+
+.submit-btn {
+    text-align: center;
+    min-width: 90px;
+    min-height: 40px;
+    line-height: 2.2rem;
+    padding: 8px;
+    border-radius: 24px;
+}
+
+.btn-success {
+    margin-left: 36px;
+    background-color: #83c81c;
+}
+
+.btn-success__first {
+    margin: 0;
+}
+
+.btn-danger {
+    margin-right: 36px;
+    background-color: #e91d1d;
+}
+
+.btn-return {
+    background-color: #e6e607;
+}
+
+.box-goodbye {
+    display: none;
+}
+
+.box-container {
+    /* transform: unset; */
+    /* animation: zoomUp linear 0.2s; */
+    display: none;
+}
+
+.box-love-you {
+    display: none;
+}

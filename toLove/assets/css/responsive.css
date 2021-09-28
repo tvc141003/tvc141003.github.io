@@ -1,0 +1,90 @@
+
+@media (min-width: 1024px) {
+    
+    .box-close:hover {
+        background-color: #2b2929;
+        cursor: pointer;
+    }
+
+    .box-title:hover {
+        cursor: default;
+    }
+
+    .submit-btn:hover {
+        cursor: pointer;
+    }
+
+    .btn-success:hover {
+        background-color: #a0e040;
+    }
+
+    .btn-danger:hover {
+        background-color: #fc3131;
+    }
+
+    .btn-return:hover {
+        background-color: #ffff24;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .box {
+        width: 300px;
+        height: 150px;
+    }
+    .box-icon {
+        margin-bottom: 0;
+    }
+    .box-close {
+        padding: 0;
+        width: 24px;
+        height: 24px;
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+    .box-title {
+        font-size: 2.2rem;
+    }
+    .submit {
+        height: 36px;
+        margin-bottom: 8px;
+        font-size: 1.8rem;
+    }
+    .submit-btn {
+        padding: 0;
+        min-height: 36px;
+        min-width: 80px;
+        line-height: 3.6rem;
+    }
+}
+
+@media (max-width: 739px) {
+    .box {
+        width: 250px;
+        height: 130px;
+    }
+    .box-icon {
+        margin-bottom: 0;
+    }
+    .box-close {
+        padding: 0;
+        width: 24px;
+        height: 24px;
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+    .box-title {
+        font-size: 2rem;
+    }
+    .submit {
+        height: 32px;
+        margin-bottom: 6px;
+        font-size: 1.6rem;
+    }
+    .submit-btn {
+        padding: 0;
+        min-height: 32px;
+        min-width: 60px;
+        line-height: 3.2rem;
+    }
+}
